@@ -1,5 +1,7 @@
 Django>=4.2
-dj-stripe
-python-telegram-bot
+gunicorn
+python-dotenv
 openai
-psycopg2-binary
+python-telegram-bot
+dj-stripe
+twilio
