@@ -1,13 +1,14 @@
-/* Placeholder Volt CSS */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
 }
 .navbar {
     padding: 1rem;
-    color: white;
 }
 .container {
-    max-width: 960px;
-    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }

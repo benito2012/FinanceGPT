@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>FinanceGPT Dashboard</title>
-    <link rel="stylesheet" href="/static/css/style.css">
-</head>
-<body>
-    <h1>Welcome to FinanceGPT</h1>
-    <p>This is the MVP dashboard.</p>
-</body>
-</html>
+
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - FinanceGPT{% endblock %}
+
+{% block content %}
+    <h2 class="mb-4">Welcome to FinanceGPT</h2>
+    <p>This is your AI-powered trading dashboard. Features like signal reports, briefings, and charts will appear here.</p>
+{% endblock %}
