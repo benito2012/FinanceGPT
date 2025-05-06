@@ -1,7 +1,1 @@
 Django>=4.2
-gunicorn
-python-dotenv
-openai
-python-telegram-bot
-dj-stripe
-twilio
